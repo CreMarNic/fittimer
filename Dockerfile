@@ -4,19 +4,12 @@ FROM openjdk:17-jdk-slim
 # Set working directory
 WORKDIR /app
 
-# Copy Maven files
-COPY pom.xml .
-COPY .mvn .mvn
-COPY mvnw .
-
-# Copy source code
-COPY src src
-
-# Build the application
-RUN ./mvnw clean package -DskipTests
+# Copy the JAR file directly
+COPY target/fittimer-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose port 8080
 EXPOSE 8080
 
 # Run the application
-CMD ["java", "-jar", "target/fittimer-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "app.jar"]
+
