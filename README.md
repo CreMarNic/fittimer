@@ -25,23 +25,6 @@ A minimalist fitness timer app built with Spring Boot, featuring work/rest inter
 - Java 17 or higher
 - Maven 3.6 or higher
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/fittimer.git
-   cd fittimer
-   ```
-
-2. **Run the application**
-   ```bash
-   mvn spring-boot:run
-   ```
-
-3. **Access the app**
-   - Open your browser and go to `http://localhost:8080`
-   - For mobile access, use your computer's IP address: `http://YOUR_IP:8080`
-
 ## Usage
 
 1. **Set Work Timer**: Tap the work timer to set work duration
@@ -80,4 +63,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
-Created with ❤️ for fitness enthusiasts.
+Created for fitness enthusiasts.
