@@ -49,10 +49,6 @@ public class TimerController {
         timerService.resumeTimer();
         return ResponseEntity.ok(timerService.getTimerState());
     }
-    @PostMapping("/resume")
-    public ResponseEntity<TimerState> resumeTimer() {
-        timerService.resumeTimer();
-        return ResponseEntity.ok(timerService.getTimerState());
     }
 
 
