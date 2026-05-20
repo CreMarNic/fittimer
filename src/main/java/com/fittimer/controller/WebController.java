@@ -1,6 +1,4 @@
-package com.fittimer.controller;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+package com.fittimer.controllstereotype.Controller;
+import org.springframework.w    eb.bind.annotation.GetMapping;
 
 
