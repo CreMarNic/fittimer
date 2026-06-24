@@ -63,4 +63,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
-Created for fitness enthusiasts.
+Created by Marius Cretu  
+GitHub: https://github.com/CreMarNic  
+Portfolio: https://cremarnic.github.io/Portfolio/
